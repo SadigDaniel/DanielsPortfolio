@@ -1,0 +1,23 @@
+.main-header {
+    display : 'flex';
+    position: 'absolute';
+    color: var(--font-color);
+    left: 0;
+    margin-top: 25%;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.who_am_i {
+    flex: 1;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.typed_text{
+    flex: 1;
+    margin-left: 45%;
+}

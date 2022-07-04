@@ -1,6 +1,10 @@
 .navigation_container {
     background-color: var(--nav-color);
     color: white;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
