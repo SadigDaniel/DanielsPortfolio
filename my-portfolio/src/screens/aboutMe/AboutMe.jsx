@@ -1,6 +1,5 @@
 import React from 'react'
 import "./aboutMe.css"
-import { BsPersonCircle } from "react-icons/bs"
 import personIcon from "../../Images/personIcon.png"
 function AboutMe() {
   var dummystr = "";

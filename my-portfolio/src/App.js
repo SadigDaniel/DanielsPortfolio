@@ -4,6 +4,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
+import Technologies from './screens/technologies/Technologies';
 function App() {
   const particlesInit = async (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -78,6 +79,7 @@ function App() {
         }}
       />
       <AboutMe />
+      <Technologies />
     </div>
   );
 }

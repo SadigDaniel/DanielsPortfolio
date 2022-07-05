@@ -17,6 +17,7 @@ function NavigationBar() {
   return (
     <div id='home'>
         <Navbar className="navigation_container" 
+          style={{position: "fixed"}}
           collapseOnSelect
           expand="md"> 
             <Navbar.Brand style={{marginLeft: "1rem"}} href="#home"> Daniel Sadig </Navbar.Brand>
