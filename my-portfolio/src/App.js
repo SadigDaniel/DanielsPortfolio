@@ -5,6 +5,10 @@ import { loadFull } from "tsparticles";
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
 import Technologies from './screens/technologies/Technologies';
+import Portfolio from './screens/portfolio/Portfolio';
+import ContactMe from './contactMe/ContactMe';
+import PastExperince from "./screens/pastExperinces/PastExperience"
+//import PastExperince from './screens/pastExperinces/PastExperince';
 function App() {
   const particlesInit = async (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -80,6 +84,10 @@ function App() {
       />
       <AboutMe />
       <Technologies />
+      <Portfolio />
+      <PastExperince />
+      <ContactMe />
+      
     </div>
   );
 }

@@ -1,5 +1,6 @@
-.technologies_container {
-    background-color: var(--light-color);
+.past_experinces_container {
+    background-color: rgb(233, 252, 213);
+    /*background-color: var(--light-color);*/
     color: var(--nav--color);
     display: flex;
     flex-direction: column;
@@ -7,7 +8,7 @@
     padding: 3rem; 
 }
 
-.tech_cards_container { 
+.experince_contianer { 
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -16,27 +17,27 @@
     margin: 1rem 0;
 }
 
-.techcard {
+.experinces_card {
     width: 15rem;
-    height: 10rem;
+    height: 15rem;
     background-color: var(--font-color);
-    margin: 10px;
+    margin: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 50%;
     border-bottom: 5px solid var(--nav--color);
     transition: all 0.1s;
 }
 
-.tech_icon{
-    height: 70px;
+.icon{
+    height: 90px;
     background-color: var(--light-color);
     border-radius: 50%;
 }
 
-.techcard:hover {
+.experinces_card:hover {
     background-color: var(--font-color-hover);
     transform: scale(1.05);
 }

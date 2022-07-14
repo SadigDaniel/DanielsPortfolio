@@ -1,0 +1,30 @@
+.contactMe_container {
+    background-color: var(--nav-color);
+    color: aliceblue;
+    padding: 1rem;
+  }
+  
+  .contact_me_links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .contact_me_links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .contact_me_links a:hover {
+    color: var(--light-color);
+  }
+
+  .closing_div{
+      text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .contact_me_links {
+      flex-direction: column;
+    }
+  }
