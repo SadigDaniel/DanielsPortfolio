@@ -2,7 +2,6 @@ import React from 'react'
 import "./pastExperience.css"
 import Devicon from "devicon-react-svg"
 import { pastJobs } from '../../helpers/pastJobs'
-import { GiMagnifyingGlass } from "react-icons/gi"
 
 function PastExperince() {
   return (
