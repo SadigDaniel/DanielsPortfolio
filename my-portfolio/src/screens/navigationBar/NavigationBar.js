@@ -15,9 +15,9 @@ function createLinks() {
 
 function NavigationBar() {
   return (
-    <div id='home'>
+    <div>
         <Navbar className="navigation_container" 
-          style={{position: "fixed"}}
+          style={{position: "fixed", top: '0'}}
           collapseOnSelect
           expand="md"> 
             <Navbar.Brand style={{marginLeft: "1rem"}} href="#home"> Daniel Sadig </Navbar.Brand>
