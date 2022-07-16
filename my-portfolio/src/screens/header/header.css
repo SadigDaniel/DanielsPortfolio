@@ -1,16 +1,17 @@
 .main-header {
-    display : 'flex';
-    position: 'absolute';
+    display: flex;
+    position: absolute;
     color: var(--font-color);
+    top: 0%;
     left: 0;
-    margin-top: 25%;
-    bottom: 0;
+    right: 0;
+    bottom: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1;
 }
-
+/*
 .who_am_i {
     flex: 1;
     justify-content: center;
@@ -21,3 +22,4 @@
     flex: 1;
     margin-left: 45%;
 }
+*/
