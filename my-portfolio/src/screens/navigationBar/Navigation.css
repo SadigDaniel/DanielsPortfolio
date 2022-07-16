@@ -2,6 +2,7 @@
     background-color: var(--nav-color);
     color: white;
     z-index: 2;
+    top: 0;
     width: 100%;
 }
 

@@ -15,7 +15,7 @@ function ContactMe() {
       <div className="contact_me_links">
         <div>
             <p>Daniel Sadig</p>
-            <p><u><a href="https://www.linkedin.com/in/daniel-sadig-33b93a197/" target="_blank">LINKED IN </a></u></p>
+            <p>linked in</p>
         </div>
         <div>
             {createLinks()}
