@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
      <NavigationBar />
+     <></>
      <Header />
      <Particles 
         id="tsparticles"
