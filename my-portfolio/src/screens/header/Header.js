@@ -3,10 +3,9 @@ import Typed from "react-typed";
 import "./header.css"
 function Header() {
   return (
-    <div className="main-header">
-      <h1 className="who_am_i"> Who Am I</h1>
+    <div id="home" className="main-header">
+      <h1> Who Am I ?</h1>
       <Typed
-        className ="typed_text" 
         strings={[
             "A Software Engineer",
             "Full Stack Developer",
