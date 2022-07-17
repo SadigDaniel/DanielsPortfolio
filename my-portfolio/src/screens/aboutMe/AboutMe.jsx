@@ -1,13 +1,9 @@
 import React from 'react'
 import "./aboutMe.css"
 import personIcon from "../../Images/personIcon.png"
+import AppLabels from '../../helpers/AppLabels';
 function AboutMe() {
-  var dummystr = "";
-  dummystr += "Hi ! My name is Daniel Sadig,"
-  dummystr += " I am currently working towards a Software Engineering degree at Ryerson University."
-  dummystr +=  " As a part of my journey I have worked as a full stack developer at Rogers,"
-  dummystr +=  " and as a Technical Systems Analyst / Robotic Process Automation engineer at RBC."
-  dummystr += " I am passionate about learning new technologies and further enhancing my skills as a software engineer. "
+  const labels = AppLabels()
 
   return (
     <div className="about_container" id="about-me">
@@ -16,7 +12,7 @@ function AboutMe() {
         </div>
         <div className="about_text">
             <h1> About Me </h1>
-            <p> {dummystr} </p>
+            <p> {labels?.ABOUT_ME_INFO} </p>
         </div>
     </div>
   )

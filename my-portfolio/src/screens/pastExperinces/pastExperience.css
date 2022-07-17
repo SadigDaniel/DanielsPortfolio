@@ -32,9 +32,9 @@
 }
 
 .icon{
-    height: 90px;
+    height: 100px;
     background-color: var(--light-color);
-    border-radius: 50%;
+    border-radius: 80%;
 }
 
 .experinces_card:hover {
