@@ -15,7 +15,7 @@ function createLinks() {
 
 function NavigationBar() {
   return (
-    <div id='home'>
+    <div>
         <Navbar className="navigation_container" 
           style={{position: "fixed"}}
           collapseOnSelect

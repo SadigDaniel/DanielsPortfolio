@@ -16,16 +16,16 @@ function CustomPopup(props) {
             <h4 style={{padding: '0.5rem', paddingBottom: '0rem'}}>Technologies Used</h4>
             {props?.data?.technologyUsed?.map((n, idx) => {
                 return(
-                    <li style={{paddingLeft: '1.2rem'}}> {n} </li>
+                    <li style={{paddingLeft: '1.2rem', fontFamily: "merriweather", fontSize: '18px'}}> {n} </li>
             )
             })}
         </div>
 
         <div cassName="my-role">
-            <h4 style={{padding: '0.5rem', paddingBottom: '0rem'}}>My Role</h4>
+            <h4 style={{padding: '0.5rem', paddingTop: '1rem'}}>My Role</h4>
             {props?.data?.role?.map((n, idx) => {
                 return(
-                    <li style={{paddingLeft: '1.2rem'}}> {n} </li>
+                    <li style={{paddingLeft: '1.2rem', paddingBottom: '0.5rem', fontFamily: "merriweather", fontSize: '18px'}}> {n} </li>
             )
             })}
         </div>
