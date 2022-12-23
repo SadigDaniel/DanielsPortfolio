@@ -7,7 +7,8 @@ export const pastJobs = [
         iconName: rogerslogo,
         technologyUsed: ['React', "React Native", "Java", "Javascript", "HTML&CSS", "TypeScript", "Spring Boot"],
         role: ["Used React Js and Type script to develop new features for the website", "Used React Native to develop new features for the mobile app", "Used spring boot and Java to update the database tables ",
-    "As a part of the OSS and Diagnostic team at Rogers, the team and I were tasked with creating new features that would assist the technicians to diagnose and fix customer issues "]
+    "As a part of the OSS and Diagnostic team at Rogers, the team and I were tasked with creating new features that would assist the technicians to diagnose and fix customer issues "],
+    extra: ["Participated and won the rogers 2022 Hackathon", "Was a part of the NLD Tracker team"]
     },
     {
         name: "RBC",

@@ -1,9 +1,19 @@
 import calculator from "../Images/projectIcon/calculator.gif";
 import GymManagment from "../Images/projectIcon/GymManagment.png";
 import RealtorSite from "../Images/projectIcon/RealtorSite.gif";
+import WeatherApp from "../Images/projectIcon/WeatherApp.gif"
 import tictactoe from "../Images/projectIcon/tictactoe.png";
 
 const portfolioData = [
+    //https://unrivaled-crostata-f53676.netlify.app/
+    {
+        image: WeatherApp,
+        link: "https://unrivaled-crostata-f53676.netlify.app/",
+        descreption: "A Weather Application",
+        summary: "This website tells a user the weather baed on there current location or entered location",
+        techused: "HTML&CSS, Java Script, React Js",
+
+    },
     {
         image: RealtorSite,
         link: "https://github.com/SadigDaniel?tab=repositories",
