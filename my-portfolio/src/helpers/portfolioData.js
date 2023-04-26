@@ -3,9 +3,18 @@ import GymManagment from "../Images/projectIcon/GymManagment.png";
 import RealtorSite from "../Images/projectIcon/RealtorSite.gif";
 import WeatherApp from "../Images/projectIcon/WeatherApp.gif"
 import tictactoe from "../Images/projectIcon/tictactoe.png";
+import PAA from "../Images/projectIcon/PAA.gif";
 
 const portfolioData = [
     //https://unrivaled-crostata-f53676.netlify.app/
+    {
+        image: PAA,
+        link: "https://paabooking.azurewebsites.net/",
+        descreption: "A Patient Appointment Booking Application",
+        summary: "This web app allows patients to schedule appointments with their doctors and vice versa, it is intended to reduce the complications in scheduling appointments.",
+        techused: "HTML&CSS, Java Script, React Js, Postgres SQL, Docker, Azure",
+
+    },
     {
         image: WeatherApp,
         link: "https://unrivaled-crostata-f53676.netlify.app/",
