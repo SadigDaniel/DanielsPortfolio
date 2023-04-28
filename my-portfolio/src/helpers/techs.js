@@ -39,4 +39,8 @@ export const tech = [
         name: 'Github',
         iconName: 'github'
       },
+      {
+        name: "Azure",
+        iconName: "azure"
+      }
 ]
