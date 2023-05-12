@@ -9,7 +9,7 @@ const portfolioData = [
     //https://unrivaled-crostata-f53676.netlify.app/
     {
         image: PAA,
-        link: "https://paabooking.azurewebsites.net/",
+        link: "https://github.com/orgs/coe70A/repositories",
         descreption: "A Patient Appointment Booking Application",
         summary: "This web app allows patients to schedule appointments with their doctors and vice versa, it is intended to reduce the complications in scheduling appointments.",
         techused: "HTML&CSS, Java Script, React Js, Postgres SQL, Docker, Azure",
