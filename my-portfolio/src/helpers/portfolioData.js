@@ -4,6 +4,7 @@ import RealtorSite from "../Images/projectIcon/RealtorSite.gif";
 import WeatherApp from "../Images/projectIcon/WeatherApp.gif"
 import tictactoe from "../Images/projectIcon/tictactoe.png";
 import PAA from "../Images/projectIcon/PAA.gif";
+import ML_AI from "../Images/projectIcon/ML_AI.png";
 
 const portfolioData = [
     //https://unrivaled-crostata-f53676.netlify.app/
@@ -21,6 +22,14 @@ const portfolioData = [
         descreption: "A Weather Application",
         summary: "This website tells a user the weather baed on there current location or entered location",
         techused: "HTML&CSS, Java Script, React Js",
+
+    },
+    {
+        image: ML_AI,
+        link: "https://github.com/SadigDaniel/Ml-AI-Code",
+        descreption: "Creating different supervised and unsupervised learning algorithms",
+        summary: "Implemented and demonstrated different supervised/unsupervised learning techniques such as logistic regression, neural network, Db Scan and so on. This demonstrates my fundamental understanding of machine learning.",
+        techused: "Python, Pandas, Numpy, SkLearn, jupyter notebook",
 
     },
     {
