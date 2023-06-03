@@ -10,7 +10,7 @@ function Header() {
         strings={[
             "A Software Engineer",
             "Full Stack Developer",
-            "4th Year University Student",
+            "Graduated with distinction",
             "",]}
             typeSpeed={40}
             backSpeed={50}
